@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "project"
+version = "0.1.0"
+description = ""
+authors = ["Denzzelindahouse <deniro-094@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+bs4 = "^0.0.1"
+celery = "^5.2.6"
+psycopg2-binary = "^2.9.3"
+django-celery-results = "^2.3.1"
+django-celery-beat = "^2.2.1"
+redis-server = "^6.0.9"
+redis = "^4.2.2"
+requests = "^2.27.1"
+SQLAlchemy = "^1.4.36"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
